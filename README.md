@@ -1,4 +1,4 @@
-# Aston_109_Hash_Table_Impl
+# Aston_109_Hibernate_CRUD_Impl
 
 ### Task:
 Implement console appliction which use _Hibernate_ to connect with PostgreSQL. Application must contain all _CRUD_ methods which allow to manipulate with _User_ data.
