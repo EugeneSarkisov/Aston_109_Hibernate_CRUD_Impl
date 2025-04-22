@@ -8,7 +8,7 @@ Implement console appliction which use _Hibernate_ to connect with PostgreSQL. A
 - `service` contain _UserService_ class which implement core functionality of application. Allow us to create, read, update or delete _Users_ in _DB_.
 - `run` contain _Runner_ class which implement console implementation of our application. _Main_ method allow us to run application.
 - `util` contain:
-    - `dao` - layer, which contain _DAO_ pattern impl. Hiding all DB conntect logic.
+    - `dao` - layer, which contain _DAO_ pattern impl. Hiding all DB data access logic.
     - `user_exception` - contain custom exceptions.
     - `validation` - contatin validation methods which checking _username_ and _age_ data. 
     - `HibernateUtil` - contain _Hibernate_ building session logic and utility methods which allow us to _get/rollback_ our _transactions_.
